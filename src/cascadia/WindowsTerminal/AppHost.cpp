@@ -661,7 +661,7 @@ void AppHost::_HandleCreateWindow(const HWND hwnd, til::rect proposedRect, Launc
         };
         dimensions = {
             availableSpace.width,
-            availableSpace.height / 2
+            availableSpace.height / 3
         };
         launchMode = LaunchMode::FocusMode;
     }

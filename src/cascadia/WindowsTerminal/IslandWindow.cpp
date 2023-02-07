@@ -1801,7 +1801,7 @@ til::rect IslandWindow::_getQuakeModeSize(HMONITOR hmon)
     };
     const til::size dimensions{
         availableSpace.width - 2,
-        availableSpace.height / 2
+        availableSpace.height / 3
     };
 
     return { origin, dimensions };
